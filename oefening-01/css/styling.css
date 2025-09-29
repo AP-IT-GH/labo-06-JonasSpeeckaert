@@ -1,0 +1,37 @@
+body {
+  min-height: 100vh;
+  display: grid;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: center;
+  grid-template-areas: "main";
+}
+
+h1,
+h2,
+p {
+  padding: 10px;
+}
+
+#p {
+  align-self: center;
+}
+
+#h1 {
+  font-weight: bold;
+  align-self: center;
+}
+
+#h2 {
+  font-weight: medium;
+  color: grey;
+  align-self: center;
+}
+
+main {
+  grid-area: main;
+  justify-items: center;
+}
+
+#img {
+  position: top;
+}
