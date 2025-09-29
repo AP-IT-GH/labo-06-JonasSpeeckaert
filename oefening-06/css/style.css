@@ -1,0 +1,45 @@
+body {
+  height: 100vh;
+}
+
+#laag1 {
+  position: absolute;
+  background-color: rgb(255, 204, 0);
+  width: 200px;
+  height: 200px;
+  color: white;
+  top: 40%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+
+#laag2 {
+  position: absolute;
+  background-color: cadetblue;
+  width: 200px;
+  height: 200px;
+  color: white;
+  top: 45%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  z-index: -50;
+}
+
+#laag3 {
+  position: absolute;
+  background-color: darkblue;
+  width: 200px;
+  height: 200px;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -100;
+}
+
+section > p {
+  margin: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: medium;
+}
